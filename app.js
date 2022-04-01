@@ -1,5 +1,5 @@
 const apiKey = 'yWPqWAUSTrxqC6TuANyD0DX4tVpQ27YY';
-const peticion = fetch(`http://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`);
+const peticion = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`);
 const showOnMain = document.getElementById('main-content');
 
 peticion
